@@ -5,5 +5,5 @@ type Mutation {
 }
 
 type Query {
-	hi: ID
+	items: [Item]!
 }
